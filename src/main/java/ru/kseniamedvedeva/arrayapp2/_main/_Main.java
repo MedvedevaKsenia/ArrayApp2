@@ -1,6 +1,6 @@
 package ru.kseniamedvedeva.arrayapp2._main;
 
-import ru.kseniamedvedeva.arrayapp2.entity.ArraySorting;
+import ru.kseniamedvedeva.arrayapp2.service.ArraySorting;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package ru.kseniamedvedeva.arrayapp2.entity;
+package ru.kseniamedvedeva.arrayapp2.service;
 
 public class ArraySorting {
     public static void arraySort(int[] arr) {
