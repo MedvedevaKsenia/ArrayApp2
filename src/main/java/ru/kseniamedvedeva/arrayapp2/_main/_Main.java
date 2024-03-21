@@ -1,5 +1,7 @@
 package ru.kseniamedvedeva.arrayapp2._main;
 
+import ru.kseniamedvedeva.arrayapp2.entity.ArraySorting;
+
 import java.util.Arrays;
 
 public class _Main {
@@ -10,5 +12,7 @@ public class _Main {
             intArray[i] = (int) (Math.random() * 100);
         }
         System.out.println(Arrays.toString(intArray));
+        ArraySorting.arraySort(intArray);
+        System.out.println("Our array after sorting: " + Arrays.toString(intArray));
     }
 }
